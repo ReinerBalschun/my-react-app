@@ -1,8 +1,8 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx';
-import Food from './Food.jsx';
-import Card from './Card.jsx';
-import Button from './Button.jsx';
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import Food from "./Food.jsx";
+import Card from "./Card.jsx";
+import Button from "./Button.jsx";
 
 // HOW TO STYLE REACT COMPONENTS WITH CSS
 // --------------------------------------
@@ -13,20 +13,18 @@ import Button from './Button.jsx';
 // 3. Inline
 
 function App() {
-    
-    return(
-      <>
-      <Card/>
-      <br/>
-      <Button/>
-      <Header/>
-      <Food/>
-      <Footer/>
-      </>
-    );
-
+  return (
+    <>
+      <Card />
+      <br />
+      <Button />
+      <Header />
+      <Food />
+      <Footer />
+    </>
+  );
 }
 
 // video: https://www.youtube.com/watch?app=desktop&v=CgkZ7MvWUAA&ab_channel=BroCode T: 40:03
 
-export default App
+export default App;
